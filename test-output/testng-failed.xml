@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.saucedemoTESTclasses.TC03VerifyBagProductTestClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifybagproduct"/>
+        </methods>
+      </class> <!-- com.saucedemoTESTclasses.TC03VerifyBagProductTestClass -->
+      <class name="com.saucedemoTESTclasses.TC04VerifyMutipleProdAddToCartTestClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifymultipleproduct"/>
+        </methods>
+      </class> <!-- com.saucedemoTESTclasses.TC04VerifyMutipleProdAddToCartTestClass -->
+      <class name="com.saucedemoTESTclasses.TC01VerifyLoginTestClass">
+        <methods>
+          <include name="verifylogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saucedemoTESTclasses.TC01VerifyLoginTestClass -->
+      <class name="com.saucedemoTESTclasses.TC02VerifyLogoutTestClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifylogout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saucedemoTESTclasses.TC02VerifyLogoutTestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
